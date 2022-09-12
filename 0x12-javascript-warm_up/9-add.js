@@ -1,7 +1,7 @@
 #!/usr/bin/node
-function add (a, b) {
-  const c = a + b;
-  console.log(c);
+function add(a, b) {
+  const c = a + b
+  console.log(c)
 }
-
-add(Number(process.argv[2]), Number(process.argv[3]));
+//Number(process.argv[2]), Number(process.argv[3]) -  This is used to convert the user input to a number
+add(Number(process.argv[2]), Number(process.argv[3]))
